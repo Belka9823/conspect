@@ -1,12 +1,13 @@
-console.log('He110, w0r1d!');
-a = 5;
-b = 4;
-c = 1;
-d = 'hello';
-e = '10';
-sum = a + b + c + d + e + e;
-console.log(a + b + c + d + e + e); 
-console.log(sum); 
-typeof (sum);
-console.log (typeof(sum));
+let num = +prompt('Введите число.')
+if (num >= 10 && num < 100)
+{
+    alert('Число в диапозоне');
+}
+else
+{
+    alert('Число НЕ в диапозоне');
+} 
 
+let nums = +prompt('Введите число.')
+let result = (nums >= 10 && nums < 100)? 'Число в диапозоне' : 'Число НЕ в диапозоне';
+alert(result)
