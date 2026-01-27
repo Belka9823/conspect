@@ -4,21 +4,25 @@ let LineB = +prompt("Введите вторую сторону треуголь
 let LineC = +prompt("Введите третью сторону треугольника:");
 
 
-if (LineA === LineB === LineC)
-{
-alert("Это равносторонний треугольник");
-}
-else if (LineA + LineB <= LineC || Lineb + LineC <= LineA || LineC + LineA <= LineB) 
+if (LineA + LineB <= LineC || LineB + LineC <= LineA || LineC + LineA <= LineB) 
 {
 alert("Такого треугольника не существует");
 }
-else if (LineA === LineB != LineC || LineA === LineC != LineB || LineB === LineC != LineA)
+else if (LineA === LineB && LineA == LineB )
+{
+alert("Это равносторонний треугольник");
+}
+else if (LineA === LineB || LineA === LineC || LineB === LineC)
 {
 alert("Это равнобедренный треугольник");
 }
 else if (LineA ** 2 + LineB ** 2 === LineC ** 2 || LineA ** 2 + LineC ** 2 ===  LineB ** 2 || LineB ** 2 + LineC ** 2 === LineA) 
 {
-alert("Это прямоугольный треугольник")
+alert("Это прямоугольный треугольник");
+}
+else
+{
+alert("Это разносторонний треугольник");
 }
 
 
