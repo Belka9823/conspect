@@ -1,4 +1,5 @@
 // первая задание домашки
+alert("Задание 1");
 let Pass = "password";
 let login = "admin"
 let Ulogin = prompt("Введите логин: ");
